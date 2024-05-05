@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'provacy-policy',
+    loadChildren: () => import('./provacy-policy/provacy-policy.module').then( m => m.ProvacyPolicyPageModule)
+  },
 ];
 
 @NgModule({

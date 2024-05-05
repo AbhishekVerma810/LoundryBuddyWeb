@@ -1,0 +1,37 @@
+
+ion-header{
+    ion-toolbar{
+     --background:#2F5874;
+     ion-buttons {
+       ion-back-button{
+         --background:white;
+         color: rgb(180, 177, 177);
+       }
+     }
+    }
+ }
+
+.privacy-policy-card {
+    margin: 20px;
+  }
+  
+  h2, h3 {
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  p, ul {
+    font-size: 16px;
+  }
+  
+  ion-card-content {
+    padding: 20px;
+  }
+  
